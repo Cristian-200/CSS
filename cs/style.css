@@ -1,0 +1,47 @@
+  
+.element{
+    font-size: 30px;
+    color: rebeccapurple;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.element{
+    width: 700px;
+    height:700px;
+    border: 2px solid red;
+}
+
+.bg-color{
+    background: brown;
+}
+
+.bg-image{
+    background: url(bg.png);
+}
+
+.bg-image-rx{
+    background: url(bg.png) repeat-x;
+}
+
+
+.bg-image-ry{
+    background: url(bg.png) repeat-y;
+}
+
+.bg-image-no-repeat{
+    background: url(bg.png) no-repeat;
+}
+
+.bg-image-size{
+    background: url(bg.png);
+    background-size: cover;
+}
+
+body{
+    background: url(bg.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
